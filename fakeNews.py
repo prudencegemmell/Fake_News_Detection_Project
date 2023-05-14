@@ -33,6 +33,3 @@ def test_classifier(clf, test_data, test_labels, header):
     predicted = clf.predict(test_data)
     print(header)
     print(np.mean(predicted == test_labels))
-
-# accuracy = LogisticRegression(max_iter=10000).score(test_data, test_labels)
-# print("Accuracy = ", accuracy*100)
