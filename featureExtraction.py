@@ -1,4 +1,3 @@
-# from collections import Counter
 import nltk
 from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
